@@ -42,7 +42,7 @@ while True:
         print("Getting your money back from someone may require efforts, but get back, you will! Less work will enable you to take some time off for yourself. Health conscious will discover some new route to fitness. Additional domestic chores if not planned properly may leave you fatigued. Overconfidence on the academic front needs curbing, as things may not turn out the way you want them to. Young couples may enroll for an adventure trip and enjoy the thrills.")
     else:
         print("Did you enter the right number? Please check again")
-    s=input("do you want to continue? If yes enter Y and if not enter N")
+    s=input("do you want to continue? If not enter N and if yes enter any key other than N")
     if s=="N":
         break
     else:
