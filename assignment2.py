@@ -142,8 +142,8 @@ def displayhangman(tries):
          
 
 def main():
-     words=getRandom()
-     play(words)
+     x=getRandom()
+     play(x)
      while input('do you want to play again ?(Y/N): ').upper == 'Y':
                      main()
 
