@@ -1,5 +1,5 @@
 import random
-word_list=['ability','India','word','amazing','fantastic','experienced']
+from words import word_list
 
 def getRandom():
     word = random.choice(word_list)
