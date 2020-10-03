@@ -144,10 +144,10 @@ def displayhangman(tries):
 def main():
      x=getRandom()
      play(x)
-     while input('do you want to play again ?(Y/N): ').upper == 'Y':
-                     main()
-
+     
 main()
+while input('do you want to play again ?(Y/N): ').upper() == 'Y':
+                     main()
 
 
 
